@@ -4,8 +4,8 @@ import requests
 with open('example.html')as html_file:
     soup = BeautifulSoup(html_file,'lxml')
 
-#match = soup.title.text
-#print(match)
+# Match = soup.title.text
+# Print(match)
 
 print(soup.prettify())
 
